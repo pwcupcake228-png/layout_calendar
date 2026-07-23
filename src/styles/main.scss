@@ -28,7 +28,7 @@ body {
     }
   }
 
-  @for $i from 1 through 29 {
+  @for $i from 28 through 31 {
     &--month-length--#{$i} {
       .calendar__day:nth-child(n + #{$i + 1}) {
         display: none;
